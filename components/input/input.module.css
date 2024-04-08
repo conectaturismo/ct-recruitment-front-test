@@ -1,0 +1,37 @@
+.input {
+}
+
+.results {
+  margin-top: 5px;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  overflow: scroll;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(---dropdown-color);
+  border-top: 2px solid var(---cta-color);
+}
+
+.results:hover {
+  display: block;
+}
+
+.results span {
+  display: block;
+  padding: 2px;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.results span:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.input:focus + div {
+  display: block;
+}

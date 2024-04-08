@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.menuArea {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: var(---max-width);
+  gap: 20px;
+}
+
+.menu {
+  font-style: "montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px;
+  color: var(---disable-text-color);
+}

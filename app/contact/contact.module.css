@@ -1,0 +1,4 @@
+.main {
+  padding: 0 50px;
+  max-width: var(---max-width);
+}

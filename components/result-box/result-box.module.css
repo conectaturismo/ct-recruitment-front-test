@@ -1,0 +1,23 @@
+.resultArea {
+  padding: 10px;
+  background-color: var(---box-color-ligth);
+}
+
+.resultBox {
+}
+
+.title {
+  padding: 10px;
+  background-color: var(---backgroud-color);
+  text-align: center;
+}
+
+.paxArea {
+  padding: 5px;
+}
+
+.paxBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

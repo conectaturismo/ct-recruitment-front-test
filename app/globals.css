@@ -1,0 +1,23 @@
+:root {
+  color-scheme: dark;
+  ---aux-color: #f8f8f8;
+  ---backgroud-color: #1d1e2bff;
+  ---box-color: #252735;
+  ---box-color-ligth: #3a3c4b;
+  ---dropdown-color: #0c0f1a;
+  ---cta-color: #f78c27;
+  ---disable-text-color: #aba8bb;
+  ---white-color: #fff;
+
+  ---max-width: 1024px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(---backgroud-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
